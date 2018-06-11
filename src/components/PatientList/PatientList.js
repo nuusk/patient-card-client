@@ -13,6 +13,7 @@ const PatientList = (props) => {
             handleClick={props.handleClick}
             shortFrame={props.shortFrame}
             flipBoard={props.flipBoard}
+            selectedPatientID={props.selectedPatientID}
           />
         ))
       }

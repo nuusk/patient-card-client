@@ -4,9 +4,9 @@ import './PatientItem.css';
 const PatientItem = (props) => {
   return (
     <div
-      className={`PatientItem balloon-red ${props.flipBoard ? 'animate-flip' : ''}`}
+      className={`PatientItem balloon-red ${(props.flipBoard && props.selectedPatientID !== props.patient.patientID) ? 'animate-flip' : ''}`}
       onClick={(e) => {
-        e.target.classList.toggle('animate-flip-instant');
+        e.target.classList.toggle('animate-flip-wait');
         props.handleClick(props.patient.patientID);
         // console.log(e.target);
         // setTimeout(()=>{

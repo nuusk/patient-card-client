@@ -44,13 +44,12 @@ export default class PatientContainer extends Component {
     ]).then(data => {
       combinedResources['patientResource'] = data[1];
       combinedResources['observationBodyHeightResource'] = data[2];
-      console.log('info z konterera:');
-      console.log(combinedResources);
-      console.log(data[0])
       this.setState({
-        // selectedPatientID: patientID,
+        selectedPatientID: patientID,
         // selectedPatientResources: combinedResources
         flipBoard: true
+      }, () => {
+        console.log(this.state);
       });
     });
   }
@@ -67,7 +66,7 @@ export default class PatientContainer extends Component {
 
   render() {
     return (
-          this.state.selectedPatientID ?
+          this.state.selectedPatientIsD ?
           <PatientResourcesDetails
             patientResource={this.state.selectedPatientResources['patientResource']}
           /> :
@@ -76,6 +75,7 @@ export default class PatientContainer extends Component {
             handleClick={this.selectPatient}
             shortFrame={this.shortFrame}
             flipBoard={this.state.flipBoard}
+            selectedPatientID={this.state.selectedPatientID}
           />
     )
   }
