@@ -7,40 +7,52 @@ export default class PatientContainer extends Component {
     super();
     this.serverURL = 'http://localhost:5000';
     this.shortFrame = 2000;
+    this.longFrame = 100;
     this.state = {
       patientList: [],
       selectedPatientID: null,
-      selectedPatientResources: {}
+      selectedPatientResources: {},
+      flipBoard: false
     };
 
     this.selectPatient = this.selectPatient.bind(this);
   }
 
   selectPatient(patientID) {
-    // const patientResourceRequest = fetch(`${this.serverURL}/patient/${patientID}`)
-    //   .then(blob => blob.json());
+    const flipCardsPromise = new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve("yo")
+      }, this.longFrame);
+    });
+    
 
-    // const observationBodyHeightResourceRequest = fetch(`${this.serverURL}/observations/height/${patientID}`)
-    //   .then(blob => blob.json());
+    const patientResourceRequest = fetch(`${this.serverURL}/patient/${patientID}`)
+      .then(blob => blob.json());
 
-    // const combinedResources = {
-    //   'patientResource': {},
-    //   'observationBodyHeightResource': {}
-    // };
+    const observationBodyHeightResourceRequest = fetch(`${this.serverURL}/observations/height/${patientID}`)
+      .then(blob => blob.json());
 
-    // Promise.all([
-    //   patientResourceRequest,
-    //   observationBodyHeightResourceRequest
-    // ]).then(data => {
-    //   combinedResources['patientResource'] = data[0];
-    //   combinedResources['observationBodyHeightResource'] = data[1];
+    const combinedResources = {
+      'patientResource': {},
+      'observationBodyHeightResource': {}
+    };
+
+    Promise.all([
+      flipCardsPromise,
+      patientResourceRequest,
+      observationBodyHeightResourceRequest
+    ]).then(data => {
+      combinedResources['patientResource'] = data[1];
+      combinedResources['observationBodyHeightResource'] = data[2];
       console.log('info z konterera:');
-    //   console.log(combinedResources);
-      // this.setState({
-      //   selectedPatientID: patientID,
-      //   selectedPatientResources: combinedResources
-      // });
-    // });
+      console.log(combinedResources);
+      console.log(data[0])
+      this.setState({
+        // selectedPatientID: patientID,
+        // selectedPatientResources: combinedResources
+        flipBoard: true
+      });
+    });
   }
 
   componentWillMount() {
@@ -63,6 +75,7 @@ export default class PatientContainer extends Component {
             patientList={this.state.patientList}
             handleClick={this.selectPatient}
             shortFrame={this.shortFrame}
+            flipBoard={this.state.flipBoard}
           />
     )
   }

@@ -12,6 +12,7 @@ const PatientList = (props) => {
             patient={patient}
             handleClick={props.handleClick}
             shortFrame={props.shortFrame}
+            flipBoard={props.flipBoard}
           />
         ))
       }

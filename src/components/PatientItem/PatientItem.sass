@@ -6,25 +6,41 @@
   padding: 20px 30px
   margin: 10px
   border-radius: 10px
+  box-sizing: border-box
   box-shadow: 4px 8px 4px 0 $shadow
-  color: $white
-  font-size: 1.8em
   cursor: pointer
-  transition: .3s
+  transition: $short-frame
   -webkit-transform-style: preserve-3d
   -webkit-backface-visibility: hidden
+  transform-origin: 60% 0%
+
+  .patient-name
+    font-size: 1.5em
+    color: $white
+
+  .patient-address
+    font-size: 1.2em
+    font-weight: 300
+    text-decoration: underline
+    color: $white
+    
+  
+  .patient-description
+    font-size: 1.2em
+    color: $gray-light
+
   &:after
     content: ''
-    right: 0px
-    bottom: 0px
     position: absolute
     top: 0px
+    right: 0px
+    bottom: 0px
     left: 0px
+    border-radius: 10px
     background-color: $setting-dark
     -webkit-transform: rotateY( 180deg )
     -webkit-transform-style: preserve-3d
     -webkit-backface-visibility: hidden
-
   &.balloon-red
     background-color: $balloon-red
   &.balloon-blue
@@ -36,9 +52,22 @@
   &.balloon-yellow
     background-color: $balloon-yellow
   &:hover
+    padding: 20px 40px
     box-shadow: 1px 1px 1px 0 $shadow
   &.animate-flip
-    animation: flip-card 1s forwards
+    transition: $long-frame
+    background-color: $setting
+    @for $i from 1 through 250
+      &:nth-child(#{$i})
+        animation:
+          name: flip-card
+          duration: $long-frame + random(5)/5 * .1s
+          delay: random(1000)/100 * .1s
+          timing-function: ease-in-out
+          fill-mode: forwards
+  &.animate-flip-instant
+    animation: flip-card $long-frame forwards
+
   div
     pointer-events: none
 
@@ -46,12 +75,10 @@
   0%
     opacity: 1
     transform: rotateY(0deg)
-    background-color: $balloon-red
     color: $white
   100%
     opacity: 0
-    transform: rotateY(-180deg)
-    background-color: $balloon-red
+    transform: rotateY(-180deg) 
     color: $white
 
 @keyframes flip-card-reverse
