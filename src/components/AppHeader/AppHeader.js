@@ -3,9 +3,9 @@ import './AppHeader.css';
 
 const AppHeader = () => {
   return (
-    <div className="AppHeader">
-      Patient card
-    </div>
+    <header className="AppHeader">
+      <div className="logo">patient card</div>
+    </header>
   );
 };
 

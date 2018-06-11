@@ -1,0 +1,70 @@
+.PatientItem {
+  position: relative;
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 8px 4px 0 rgba(0, 0, 0, 0.3);
+  color: #fefefe;
+  font-size: 1.8em;
+  cursor: pointer;
+  transition: .3s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden; }
+
+.PatientItem:after {
+  content: '';
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #1f232b;
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden; }
+
+.PatientItem.balloon-red {
+  background-color: #ed5572; }
+
+.PatientItem.balloon-blue {
+  background-color: #77ddff; }
+
+.PatientItem.balloon-green {
+  background-color: #c3e88d; }
+
+.PatientItem.balloon-orange {
+  background-color: #f79f4c; }
+
+.PatientItem.balloon-yellow {
+  background-color: #edf767; }
+
+.PatientItem:hover {
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3); }
+
+.PatientItem.animate-flip {
+  animation: flip-card 1s forwards; }
+
+.PatientItem div {
+  pointer-events: none; }
+
+@keyframes flip-card {
+  0% {
+    opacity: 1;
+    transform: rotateY(0deg);
+    background-color: #ed5572;
+    color: #fefefe; }
+  100% {
+    opacity: 0;
+    transform: rotateY(-180deg);
+    background-color: #ed5572;
+    color: #fefefe; } }
+
+@keyframes flip-card-reverse {
+  0% {
+    background-color: #1f232b;
+    color: transparent; }
+  100% {
+    transform: rotateY(-180deg);
+    background-color: #1f232b;
+    color: transparent;
+    opacity: 0; } }

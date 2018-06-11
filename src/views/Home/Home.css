@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,3 +41,17 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+html, body {
+  height: 100vh;
+  background-color: #292d3e; }
+
+.Home {
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fefefe;
+  display: flex;
+  flex-direction: column; }
+
+.Home .PatientResourcesDetails {
+  flex: 1; }

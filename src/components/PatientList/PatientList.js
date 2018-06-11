@@ -6,12 +6,12 @@ const PatientList = (props) => {
   return (
     <div className="PatientList">
       {
-        props.patientList.map((patient, index) => (
+        props.patientList.slice(0,24).map((patient, index) => (
           <PatientItem
             key={patient._id}
-            observation={patient.observation}
-            value={patient.value}
-            unit={patient.unit}
+            patient={patient}
+            handleClick={props.handleClick}
+            shortFrame={props.shortFrame}
           />
         ))
       }
