@@ -57,16 +57,19 @@
   &.animate-flip
     transition: $long-frame
     background-color: $setting
-    @for $i from 1 through 250
-      &:nth-child(#{$i})
-        animation:
-          name: flip-card
-          duration: $long-frame + random(5)/5 * .1s
-          delay: random(1000)/100 * .1s
-          timing-function: ease-in-out
-          fill-mode: forwards
-  &.animate-flip-instant
-    animation: flip-card $long-frame forwards
+    &:not(.animate-flip-instant)
+      @for $i from 1 through 250
+        &:nth-child(#{$i})
+          animation:
+            name: flip-card
+            duration: $long-frame + random(5)/5 * .1s
+            delay: random(1000)/100 * .1s
+            timing-function: ease-in-out
+            fill-mode: forwards
+    &.animate-flip-instant
+      animation: flip-card-continous 4*$long-frame forwards
+  // &.animate-flip-instant
+  //   animation: flip-card-continous 4*$long-frame forwards
 
   div
     pointer-events: none
@@ -79,6 +82,16 @@
   100%
     opacity: 0
     transform: rotateY(-180deg) 
+    color: $white
+
+@keyframes flip-card-continous
+  0%
+    opacity: 1
+    transform: rotateY(0deg)
+    color: $white
+  100%
+    opacity: 0
+    transform: rotateY(-1080deg) 
     color: $white
 
 @keyframes flip-card-reverse
