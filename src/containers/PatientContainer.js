@@ -6,8 +6,9 @@ export default class PatientContainer extends Component {
   constructor() {
     super();
     this.serverURL = 'http://localhost:5000';
-    this.shortFrame = 2000;
-    this.longFrame = 100;
+    this.shortFrame = 200;
+    this.longFrame = 600;
+    this.containerContentTimer = 2000;
     this.state = {
       patientList: [],
       selectedPatientID: null,
@@ -16,7 +17,12 @@ export default class PatientContainer extends Component {
     };
 
     this.selectPatient = this.selectPatient.bind(this);
+    this.changeView = this.changeView.bind(this);
   }
+
+  // componentDidMount() {
+  //   this.selectPatient(44001);
+  // }
 
   selectPatient(patientID) {
     const flipCardsPromise = new Promise((resolve, reject) => {
@@ -48,11 +54,21 @@ export default class PatientContainer extends Component {
       console.log(combinedResources);
       console.log(data[0])
       this.setState({
-        // selectedPatientID: patientID,
-        // selectedPatientResources: combinedResources
+        selectedPatientID: patientID,
+        selectedPatientResources: combinedResources,
         flipBoard: true
+      }, () => {
+        this.changeView('resourcesDetails', this.containerContentTimer);
       });
     });
+  }
+
+  changeView(view, delay) {
+    setTimeout(() => {
+      this.setState({
+        containerContent: view
+      });
+    }, delay)
   }
 
   componentWillMount() {
@@ -67,9 +83,10 @@ export default class PatientContainer extends Component {
 
   render() {
     return (
-          this.state.selectedPatientID ?
+          (this.state.selectedPatientID && this.state.containerContent === 'resourcesDetails') ?
           <PatientResourcesDetails
             patientResource={this.state.selectedPatientResources['patientResource']}
+            observationBodyHeightResource={this.state.selectedPatientResources['observationBodyHeightResource']}
           /> :
           <PatientList
             patientList={this.state.patientList}

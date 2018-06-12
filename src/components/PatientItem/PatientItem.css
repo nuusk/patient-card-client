@@ -9,83 +9,83 @@
   transition: 0.2s;
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
-  transform-origin: 60% 0%;
   transform: rotateY(0deg);
+  transform-origin: 60% 0%;
   opacity: 1; }
 
 .PatientItem:nth-child(1) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.68s;
+  animation-duration: 1.76s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(2) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.2s;
+  animation-duration: 1.44s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(3) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.6s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(4) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.8s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(5) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(6) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.68s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(7) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(8) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(9) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.76s;
+  animation-duration: 1.12s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(10) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.72s;
+  animation-duration: 1.96s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(11) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.32s;
+  animation-duration: 1.52s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(12) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(13) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.36s;
+  animation-duration: 1.96s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(14) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.52s;
+  animation-duration: 1.96s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(15) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.36s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(16) {
@@ -95,492 +95,492 @@
 
 .PatientItem:nth-child(17) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.6s;
+  animation-duration: 1.4s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(18) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.64s;
+  animation-duration: 1.52s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(19) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(20) {
   animation-name: flip-card-reverse;
-  animation-duration: 2s;
+  animation-duration: 1.24s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(21) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.72s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(22) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.44s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(23) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.56s;
+  animation-duration: 1.4s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(24) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(25) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.36s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(26) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.84s;
+  animation-duration: 1.68s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(27) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.52s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(28) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.2s;
+  animation-duration: 1.16s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(29) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.24s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(30) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.28s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(31) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.12s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(32) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.92s;
+  animation-duration: 1.4s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(33) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.4s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(34) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.52s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(35) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.52s;
+  animation-duration: 1.28s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(36) {
   animation-name: flip-card-reverse;
-  animation-duration: 2s;
+  animation-duration: 1.84s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(37) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.68s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(38) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.84s;
+  animation-duration: 1.48s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(39) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.08s;
+  animation-duration: 1.84s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(40) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.04s;
+  animation-duration: 1.72s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(41) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(42) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.2s;
+  animation-duration: 1.76s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(43) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.64s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(44) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.48s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(45) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.08s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(46) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.08s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(47) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.52s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(48) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.72s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(49) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.28s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(50) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.68s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(51) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.52s;
+  animation-duration: 1.84s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(52) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.4s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(53) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.56s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(54) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(55) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.4s;
+  animation-duration: 1.68s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(56) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.2s;
+  animation-duration: 1.12s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(57) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.32s;
+  animation-duration: 1.12s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(58) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(59) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.16s;
+  animation-duration: 1.4s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(60) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.64s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(61) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.08s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(62) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.72s;
+  animation-duration: 1.16s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(63) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.6s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(64) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.48s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(65) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.36s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(66) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.64s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(67) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.04s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(68) {
   animation-name: flip-card-reverse;
-  animation-duration: 2s;
+  animation-duration: 1.08s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(69) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.64s;
+  animation-duration: 1.96s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(70) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.36s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(71) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.32s;
+  animation-duration: 1.36s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(72) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.16s;
+  animation-duration: 1.08s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(73) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.56s;
+  animation-duration: 1.48s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(74) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.12s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(75) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.48s;
+  animation-duration: 1.68s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(76) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.36s;
+  animation-duration: 1.08s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(77) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.92s;
+  animation-duration: 1.96s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(78) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.4s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(79) {
   animation-name: flip-card-reverse;
-  animation-duration: 2s;
+  animation-duration: 1.16s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(80) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.76s;
+  animation-duration: 1.4s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(81) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(82) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.16s;
+  animation-duration: 1.44s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(83) {
   animation-name: flip-card-reverse;
-  animation-duration: 2s;
+  animation-duration: 1.68s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(84) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.08s;
+  animation-duration: 1.16s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(85) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.2s;
+  animation-duration: 1.44s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(86) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.64s;
+  animation-duration: 1.72s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(87) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.6s;
+  animation-duration: 1.28s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(88) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.68s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(89) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.36s;
+  animation-duration: 1.64s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(90) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.04s;
+  animation-duration: 1.12s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(91) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.72s;
+  animation-duration: 1.96s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(92) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.24s;
+  animation-duration: 1.44s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(93) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.68s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(94) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.48s;
+  animation-duration: 1.12s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(95) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.16s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(96) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.92s;
+  animation-duration: 1.48s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(97) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.08s;
+  animation-duration: 1.28s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(98) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(99) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(100) {
   animation-name: flip-card-reverse;
-  animation-duration: 2s;
+  animation-duration: 1.12s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(101) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.76s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(102) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.56s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(103) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.24s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(104) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.04s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(105) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.32s;
+  animation-duration: 1.96s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(106) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(107) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.84s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(108) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.24s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(109) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.92s;
+  animation-duration: 1.36s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(110) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.04s;
+  animation-duration: 1.16s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(111) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.76s;
+  animation-duration: 1.72s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(112) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.32s;
+  animation-duration: 1.68s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(113) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(114) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.36s;
+  animation-duration: 1.68s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(115) {
@@ -590,22 +590,22 @@
 
 .PatientItem:nth-child(116) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.16s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(117) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.96s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(118) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.2s;
+  animation-duration: 1.64s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(119) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.24s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(120) {
@@ -615,422 +615,422 @@
 
 .PatientItem:nth-child(121) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.16s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(122) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.4s;
+  animation-duration: 1.24s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(123) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.56s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(124) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.16s;
+  animation-duration: 1.28s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(125) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.76s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(126) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.76s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(127) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.72s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(128) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(129) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(130) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.24s;
+  animation-duration: 1.76s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(131) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.76s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(132) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.48s;
+  animation-duration: 1.72s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(133) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(134) {
   animation-name: flip-card-reverse;
-  animation-duration: 2s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(135) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.32s;
+  animation-duration: 1.48s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(136) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.56s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(137) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.8s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(138) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(139) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.52s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(140) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.08s;
+  animation-duration: 1.16s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(141) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.76s;
+  animation-duration: 1.52s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(142) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.36s;
+  animation-duration: 1.28s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(143) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.64s;
+  animation-duration: 1.72s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(144) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.68s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(145) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.76s;
+  animation-duration: 1.64s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(146) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(147) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.04s;
+  animation-duration: 1.4s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(148) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.92s;
+  animation-duration: 1.48s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(149) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.48s;
+  animation-duration: 1.76s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(150) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.24s;
+  animation-duration: 1.88s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(151) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.84s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(152) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.48s;
+  animation-duration: 1.84s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(153) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.16s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(154) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.36s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(155) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.64s;
+  animation-duration: 1.88s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(156) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.68s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(157) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.92s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(158) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.68s;
+  animation-duration: 1.08s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(159) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.92s;
+  animation-duration: 1.44s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(160) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.4s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(161) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.2s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(162) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.92s;
+  animation-duration: 1.8s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(163) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.48s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(164) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.32s;
+  animation-duration: 1.84s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(165) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(166) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.56s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(167) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.64s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(168) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.92s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(169) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.32s;
+  animation-duration: 1.36s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(170) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(171) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.6s;
+  animation-duration: 1.48s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(172) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.76s;
+  animation-duration: 1.44s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(173) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.6s;
+  animation-duration: 1.36s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(174) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.4s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(175) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.4s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(176) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(177) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.48s;
+  animation-duration: 1.64s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(178) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.56s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(179) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.92s;
+  animation-duration: 1.36s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(180) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.56s;
+  animation-duration: 1.52s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(181) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.88s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(182) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.64s;
+  animation-duration: 1.8s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(183) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.4s;
+  animation-duration: 1.56s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(184) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.64s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(185) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.68s;
+  animation-duration: 1.56s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(186) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.24s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(187) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.24s;
+  animation-duration: 1.56s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(188) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.52s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(189) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.4s;
+  animation-duration: 1.56s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(190) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.2s;
+  animation-duration: 1.52s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(191) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.16s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(192) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(193) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(194) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.64s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(195) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.76s;
+  animation-duration: 1.64s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(196) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.84s;
+  animation-duration: 1.52s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(197) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.16s;
+  animation-duration: 1.88s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(198) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.56s;
+  animation-duration: 1.16s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(199) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.6s;
+  animation-duration: 1.48s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(200) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.2s;
+  animation-duration: 1.8s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(201) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.36s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(202) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.56s;
+  animation-duration: 1.84s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(203) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.56s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(204) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.6s;
+  animation-duration: 1.24s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(205) {
@@ -1040,47 +1040,47 @@
 
 .PatientItem:nth-child(206) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.2s;
+  animation-duration: 1.08s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(207) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.76s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(208) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.68s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(209) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(210) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.32s;
+  animation-duration: 1.12s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(211) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.32s;
+  animation-duration: 1.16s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(212) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.48s;
+  animation-duration: 1.84s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(213) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(214) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.04s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(215) {
@@ -1090,32 +1090,32 @@
 
 .PatientItem:nth-child(216) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.44s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(217) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.8s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(218) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.96s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(219) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.84s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(220) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.56s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(221) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.44s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(222) {
@@ -1125,32 +1125,32 @@
 
 .PatientItem:nth-child(223) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.36s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(224) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(225) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.52s;
+  animation-duration: 1.48s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(226) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.36s;
+  animation-duration: 1.64s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(227) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.28s;
+  animation-duration: 1.84s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(228) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.4s;
+  animation-duration: 1.84s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(229) {
@@ -1160,47 +1160,47 @@
 
 .PatientItem:nth-child(230) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.56s;
+  animation-duration: 1.24s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(231) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.8s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(232) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.12s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(233) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.84s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(234) {
   animation-name: flip-card-reverse;
-  animation-duration: 2s;
+  animation-duration: 1.28s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(235) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.84s;
+  animation-duration: 1.08s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(236) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.76s;
+  animation-duration: 1.92s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(237) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.4s;
+  animation-duration: 1.64s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(238) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.36s;
+  animation-duration: 1.48s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(239) {
@@ -1210,57 +1210,57 @@
 
 .PatientItem:nth-child(240) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.6s;
+  animation-duration: 1.44s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(241) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.72s;
+  animation-duration: 1.08s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(242) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.64s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(243) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.92s;
+  animation-duration: 1.28s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(244) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.48s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(245) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.16s;
+  animation-duration: 1.68s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(246) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.6s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(247) {
   animation-name: flip-card-reverse;
-  animation-duration: 2s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(248) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.12s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(249) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.88s;
+  animation-duration: 1.4s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem:nth-child(250) {
   animation-name: flip-card-reverse;
-  animation-duration: 1.32s;
+  animation-duration: 1.88s;
   animation-timing-function: ease-in-out; }
 
 .PatientItem .patient-name {
@@ -1318,1750 +1318,1750 @@
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(1) {
   animation-name: flip-card;
   animation-duration: 1.04s;
-  animation-delay: 0.883s;
+  animation-delay: 0.364s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(2) {
   animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.507s;
+  animation-duration: 1.02s;
+  animation-delay: 0.089s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(3) {
   animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.547s;
+  animation-duration: 1.08s;
+  animation-delay: 0.691s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(4) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.388s;
+  animation-duration: 1.08s;
+  animation-delay: 0.12s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(5) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.892s;
+  animation-duration: 1.04s;
+  animation-delay: 0.021s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(6) {
   animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.917s;
+  animation-duration: 1.04s;
+  animation-delay: 0.218s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(7) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.157s;
+  animation-duration: 1.08s;
+  animation-delay: 0.465s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(8) {
   animation-name: flip-card;
   animation-duration: 1.06s;
-  animation-delay: 0.432s;
+  animation-delay: 0.425s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(9) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.053s;
+  animation-duration: 1.1s;
+  animation-delay: 0.294s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(10) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.924s;
+  animation-duration: 1.06s;
+  animation-delay: 0.683s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(11) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.205s;
+  animation-duration: 1.08s;
+  animation-delay: 0.113s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(12) {
   animation-name: flip-card;
   animation-duration: 1.08s;
-  animation-delay: 0.231s;
+  animation-delay: 0.173s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(13) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.23s;
+  animation-duration: 1.04s;
+  animation-delay: 0.709s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(14) {
   animation-name: flip-card;
   animation-duration: 1.1s;
-  animation-delay: 0.522s;
+  animation-delay: 0.406s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(15) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.321s;
+  animation-duration: 1.06s;
+  animation-delay: 0.517s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(16) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.419s;
+  animation-duration: 1.04s;
+  animation-delay: 0.524s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(17) {
   animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.802s;
+  animation-duration: 1.06s;
+  animation-delay: 0.59s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(18) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.996s;
+  animation-duration: 1.06s;
+  animation-delay: 0.76s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(19) {
   animation-name: flip-card;
   animation-duration: 1.06s;
-  animation-delay: 0.537s;
+  animation-delay: 0.178s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(20) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.839s;
+  animation-duration: 1.1s;
+  animation-delay: 0.35s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(21) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.468s;
+  animation-duration: 1.06s;
+  animation-delay: 0.903s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(22) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.012s;
+  animation-duration: 1.04s;
+  animation-delay: 0.532s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(23) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.875s;
+  animation-duration: 1.06s;
+  animation-delay: 0.8s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(24) {
   animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.468s;
+  animation-duration: 1.02s;
+  animation-delay: 0.356s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(25) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.841s;
+  animation-duration: 1.06s;
+  animation-delay: 0.012s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(26) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.915s;
+  animation-duration: 1.1s;
+  animation-delay: 0.705s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(27) {
   animation-name: flip-card;
   animation-duration: 1.04s;
-  animation-delay: 0.01s;
+  animation-delay: 0.062s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(28) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.481s;
+  animation-duration: 1.06s;
+  animation-delay: 0.526s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(29) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.858s;
+  animation-duration: 1.08s;
+  animation-delay: 0.107s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(30) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.191s;
+  animation-duration: 1.1s;
+  animation-delay: 0.535s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(31) {
   animation-name: flip-card;
   animation-duration: 1.06s;
-  animation-delay: 0.431s;
+  animation-delay: 0.724s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(32) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.861s;
+  animation-duration: 1.02s;
+  animation-delay: 0.671s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(33) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.172s;
+  animation-duration: 1.06s;
+  animation-delay: 0.596s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(34) {
   animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.156s;
+  animation-duration: 1.08s;
+  animation-delay: 0.174s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(35) {
   animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.724s;
+  animation-duration: 1.08s;
+  animation-delay: 0.126s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(36) {
   animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.386s;
+  animation-duration: 1.02s;
+  animation-delay: 0.748s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(37) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.755s;
+  animation-duration: 1.06s;
+  animation-delay: 0.277s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(38) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.221s;
+  animation-duration: 1.08s;
+  animation-delay: 0.934s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(39) {
   animation-name: flip-card;
   animation-duration: 1.08s;
-  animation-delay: 0.838s;
+  animation-delay: 0.017s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(40) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.771s;
+  animation-duration: 1.1s;
+  animation-delay: 0.16s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(41) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.963s;
+  animation-duration: 1.06s;
+  animation-delay: 0.371s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(42) {
   animation-name: flip-card;
   animation-duration: 1.06s;
-  animation-delay: 0.243s;
+  animation-delay: 0.669s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(43) {
   animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.322s;
+  animation-duration: 1.02s;
+  animation-delay: 0.363s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(44) {
   animation-name: flip-card;
   animation-duration: 1.04s;
-  animation-delay: 0.669s;
+  animation-delay: 0.731s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(45) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.694s;
+  animation-duration: 1.06s;
+  animation-delay: 0.954s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(46) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.175s;
+  animation-duration: 1.06s;
+  animation-delay: 0.785s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(47) {
   animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.382s;
+  animation-duration: 1.04s;
+  animation-delay: 0.365s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(48) {
   animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.831s;
+  animation-duration: 1.02s;
+  animation-delay: 0.355s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(49) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.397s;
+  animation-duration: 1.08s;
+  animation-delay: 0.683s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(50) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.352s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(51) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.012s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(52) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.435s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(53) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.735s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(54) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.096s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(55) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.025s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(56) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.922s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(57) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.72s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(58) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.204s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(59) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.561s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(60) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.569s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(61) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.49s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(62) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.514s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(63) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.747s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(64) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.711s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(65) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.088s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(66) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.632s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(67) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.225s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(68) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.949s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(69) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.398s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(70) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.489s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(71) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.171s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(72) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.709s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(73) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.483s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(74) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.415s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(75) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.588s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(76) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.753s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(77) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.451s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(78) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.371s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(79) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.436s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(80) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.57s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(81) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.983s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(82) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.443s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(83) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.003s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(84) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.579s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(85) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.137s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(86) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.785s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(87) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.294s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(88) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.821s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(89) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.679s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(90) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.014s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(91) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.449s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(92) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.768s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(93) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.584s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(94) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.54s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(95) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.005s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(96) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.206s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(97) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.673s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(98) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.455s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(99) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.386s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(100) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.427s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(101) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.233s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(102) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.942s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(103) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.529s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(104) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.825s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(105) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.757s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(106) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.999s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(107) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.97s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(108) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.841s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(109) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.396s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(110) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.039s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(111) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.774s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(112) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.807s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(113) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.577s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(114) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.519s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(115) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.749s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(116) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.328s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(117) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.762s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(118) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.377s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(119) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.641s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(120) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.836s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(121) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.385s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(122) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.605s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(123) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.236s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(124) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.347s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(125) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.568s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(126) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.305s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(127) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.382s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(128) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.252s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(129) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.414s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(130) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.667s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(131) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.786s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(132) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.619s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(133) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.12s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(134) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.89s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(135) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.08s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(136) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.818s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(137) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.789s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(138) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.568s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(139) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.596s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(140) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.822s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(141) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.557s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(142) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.45s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(143) {
   animation-name: flip-card;
   animation-duration: 1.06s;
   animation-delay: 0.472s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(144) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.48s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(145) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(51) {
   animation-name: flip-card;
   animation-duration: 1.1s;
-  animation-delay: 0.713s;
+  animation-delay: 0.112s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(146) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.879s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(147) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.518s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(148) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(52) {
   animation-name: flip-card;
   animation-duration: 1.1s;
-  animation-delay: 0.364s;
+  animation-delay: 0.539s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(149) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(53) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.105s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(54) {
   animation-name: flip-card;
   animation-duration: 1.1s;
-  animation-delay: 0.203s;
+  animation-delay: 0.62s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(150) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.075s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(151) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.442s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(152) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.227s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(153) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.773s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(154) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.712s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(155) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.233s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(156) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.854s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(157) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(55) {
   animation-name: flip-card;
   animation-duration: 1.04s;
-  animation-delay: 0.9s;
+  animation-delay: 0.419s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(158) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(56) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.752s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(57) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.557s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(58) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.864s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(59) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.766s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(60) {
   animation-name: flip-card;
   animation-duration: 1.06s;
-  animation-delay: 0.792s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(159) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.928s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(160) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.294s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(161) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.375s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(162) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.411s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(163) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.941s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(164) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.213s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(165) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.231s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(166) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.042s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(167) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.136s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(168) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.136s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(169) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.891s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(170) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.569s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(171) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.556s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(172) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.861s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(173) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.297s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(174) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.65s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(175) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.438s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(176) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.445s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(177) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
   animation-delay: 0.132s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(178) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(61) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.261s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(62) {
   animation-name: flip-card;
   animation-duration: 1.06s;
-  animation-delay: 0.033s;
+  animation-delay: 0.207s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(179) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(63) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.777s;
+  animation-duration: 1.04s;
+  animation-delay: 0.407s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(180) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(64) {
   animation-name: flip-card;
   animation-duration: 1.02s;
+  animation-delay: 0.381s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(65) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.499s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(66) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
   animation-delay: 0.749s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(181) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(67) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.541s;
+  animation-duration: 1.06s;
+  animation-delay: 0.514s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(182) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(68) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.884s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(69) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.69s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(70) {
   animation-name: flip-card;
   animation-duration: 1.08s;
-  animation-delay: 0.603s;
+  animation-delay: 0.824s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(183) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(71) {
   animation-name: flip-card;
   animation-duration: 1.1s;
-  animation-delay: 0.319s;
+  animation-delay: 0.595s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(184) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(72) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.827s;
+  animation-duration: 1.02s;
+  animation-delay: 0.415s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(185) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.438s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(186) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(73) {
   animation-name: flip-card;
   animation-duration: 1.06s;
-  animation-delay: 0.223s;
+  animation-delay: 0.351s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(187) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.63s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(188) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.895s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(189) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.613s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(190) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.876s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(191) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.826s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(192) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.807s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(193) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(74) {
   animation-name: flip-card;
   animation-duration: 1.08s;
-  animation-delay: 0.527s;
+  animation-delay: 0.796s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(194) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(75) {
   animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.002s;
+  animation-duration: 1.08s;
+  animation-delay: 0.619s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(195) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(76) {
   animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.825s;
+  animation-duration: 1.08s;
+  animation-delay: 0.805s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(196) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(77) {
   animation-name: flip-card;
   animation-duration: 1.04s;
-  animation-delay: 0.869s;
+  animation-delay: 0.234s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(197) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(78) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.483s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(79) {
   animation-name: flip-card;
   animation-duration: 1.02s;
-  animation-delay: 0.027s;
+  animation-delay: 0.296s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(198) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(80) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.085s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(81) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.534s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(82) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.054s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(83) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.152s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(84) {
   animation-name: flip-card;
   animation-duration: 1.06s;
-  animation-delay: 0.883s;
+  animation-delay: 0.891s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(199) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(85) {
   animation-name: flip-card;
   animation-duration: 1.02s;
-  animation-delay: 0.838s;
+  animation-delay: 0.921s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(200) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.707s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(201) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.906s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(202) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.203s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(203) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.126s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(204) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(86) {
   animation-name: flip-card;
   animation-duration: 1.1s;
-  animation-delay: 0.959s;
+  animation-delay: 0.812s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(205) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(87) {
   animation-name: flip-card;
   animation-duration: 1.1s;
-  animation-delay: 0.247s;
+  animation-delay: 0.594s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(206) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(88) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.138s;
+  animation-duration: 1.02s;
+  animation-delay: 0.193s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(207) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(89) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.579s;
+  animation-duration: 1.02s;
+  animation-delay: 0.173s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(208) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(90) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.158s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(91) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.442s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(92) {
   animation-name: flip-card;
   animation-duration: 1.08s;
   animation-delay: 0.104s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(209) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(93) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.902s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(94) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.076s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(95) {
   animation-name: flip-card;
   animation-duration: 1.06s;
-  animation-delay: 0.397s;
+  animation-delay: 0.612s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(210) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(96) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.044s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(97) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.004s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(98) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.669s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(99) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.02s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(100) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.344s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(101) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.377s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(102) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.845s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(103) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.973s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(104) {
   animation-name: flip-card;
   animation-duration: 1.06s;
-  animation-delay: 0.544s;
+  animation-delay: 0.008s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(211) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(105) {
   animation-name: flip-card;
   animation-duration: 1.08s;
-  animation-delay: 0.492s;
+  animation-delay: 0.552s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(212) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.01s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(213) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.075s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(214) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(106) {
   animation-name: flip-card;
   animation-duration: 1.04s;
-  animation-delay: 0.322s;
+  animation-delay: 0.954s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(215) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(107) {
   animation-name: flip-card;
   animation-duration: 1.02s;
-  animation-delay: 0.139s;
+  animation-delay: 0.59s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(216) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.067s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(217) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(108) {
   animation-name: flip-card;
   animation-duration: 1.08s;
-  animation-delay: 0.639s;
+  animation-delay: 0.775s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(218) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.039s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(219) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.56s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(220) {
-  animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.412s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(221) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.223s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(222) {
-  animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.906s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(223) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(109) {
   animation-name: flip-card;
   animation-duration: 1.06s;
-  animation-delay: 0.53s;
+  animation-delay: 0.601s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(224) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.734s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(225) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.323s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(226) {
-  animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.135s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(227) {
-  animation-name: flip-card;
-  animation-duration: 1.02s;
-  animation-delay: 0.533s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(228) {
-  animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.769s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards; }
-
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(229) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(110) {
   animation-name: flip-card;
   animation-duration: 1.1s;
-  animation-delay: 0.801s;
+  animation-delay: 0.682s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(230) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(111) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.89s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(112) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.517s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(113) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.441s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(114) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.426s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(115) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.426s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(116) {
   animation-name: flip-card;
   animation-duration: 1.04s;
-  animation-delay: 0.67s;
+  animation-delay: 0.069s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(231) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(117) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.047s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(118) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.399s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(119) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.685s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(120) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.655s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(121) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.996s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(122) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.939s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(123) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.812s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(124) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.974s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(125) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.402s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(126) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.978s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(127) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.123s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(128) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.294s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(129) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.274s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(130) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.046s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(131) {
   animation-name: flip-card;
   animation-duration: 1.06s;
   animation-delay: 0.271s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
-.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(232) {
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(132) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.066s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(133) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.457s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(134) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.24s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(135) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.333s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(136) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.836s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(137) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.289s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(138) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.332s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(139) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.501s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(140) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.775s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(141) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.015s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(142) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.854s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(143) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.812s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(144) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.294s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(145) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.867s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(146) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.443s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(147) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.974s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(148) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.263s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(149) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.368s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(150) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.166s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(151) {
   animation-name: flip-card;
   animation-duration: 1.02s;
-  animation-delay: 0.255s;
+  animation-delay: 0.886s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(152) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.467s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(153) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.849s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(154) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.568s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(155) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.061s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(156) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.599s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(157) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.934s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(158) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.656s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(159) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.844s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(160) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.289s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(161) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.302s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(162) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.313s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(163) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.303s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(164) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.416s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(165) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.186s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(166) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.771s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(167) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.857s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(168) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.955s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(169) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.004s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(170) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.463s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(171) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.993s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(172) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.862s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(173) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.237s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(174) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.921s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(175) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.817s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(176) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.188s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(177) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.747s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(178) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.649s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(179) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.499s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(180) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.188s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(181) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.521s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(182) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.785s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(183) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.961s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(184) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.623s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(185) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.176s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(186) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.795s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(187) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.868s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(188) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.384s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(189) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.762s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(190) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.421s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(191) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.463s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(192) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.331s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(193) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.8s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(194) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.654s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(195) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.434s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(196) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.98s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(197) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.175s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(198) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.828s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(199) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.234s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(200) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.285s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(201) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.749s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(202) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.317s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(203) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.986s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(204) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.546s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(205) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.842s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(206) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.91s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(207) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.204s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(208) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.951s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(209) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.612s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(210) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.726s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(211) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.074s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(212) {
+  animation-name: flip-card;
+  animation-duration: 1.02s;
+  animation-delay: 0.099s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(213) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.758s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(214) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.326s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(215) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.304s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(216) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.472s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(217) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.663s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(218) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.247s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(219) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.629s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(220) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.529s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(221) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.304s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(222) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.521s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(223) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.324s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(224) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.234s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(225) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.088s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(226) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.38s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(227) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.815s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(228) {
+  animation-name: flip-card;
+  animation-duration: 1.08s;
+  animation-delay: 0.041s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(229) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.249s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(230) {
+  animation-name: flip-card;
+  animation-duration: 1.1s;
+  animation-delay: 0.359s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(231) {
+  animation-name: flip-card;
+  animation-duration: 1.06s;
+  animation-delay: 0.812s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.PatientItem.animate-flip:not(.animate-flip-instant):nth-child(232) {
+  animation-name: flip-card;
+  animation-duration: 1.04s;
+  animation-delay: 0.119s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(233) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.563s;
+  animation-duration: 1.1s;
+  animation-delay: 0.915s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(234) {
   animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.835s;
+  animation-duration: 1.06s;
+  animation-delay: 0.003s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(235) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.149s;
+  animation-duration: 1.06s;
+  animation-delay: 0.777s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(236) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.176s;
+  animation-duration: 1.1s;
+  animation-delay: 0.062s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(237) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.904s;
+  animation-duration: 1.02s;
+  animation-delay: 0.376s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(238) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.897s;
+  animation-duration: 1.02s;
+  animation-delay: 0.034s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(239) {
   animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.98s;
+  animation-duration: 1.1s;
+  animation-delay: 0.061s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(240) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.569s;
+  animation-duration: 1.06s;
+  animation-delay: 0.916s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(241) {
   animation-name: flip-card;
-  animation-duration: 1.1s;
-  animation-delay: 0.461s;
+  animation-duration: 1.06s;
+  animation-delay: 0.953s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(242) {
   animation-name: flip-card;
   animation-duration: 1.1s;
-  animation-delay: 0.91s;
+  animation-delay: 0.647s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(243) {
   animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.379s;
+  animation-duration: 1.02s;
+  animation-delay: 0.571s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(244) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.016s;
+  animation-duration: 1.02s;
+  animation-delay: 0.5s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(245) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.61s;
+  animation-duration: 1.02s;
+  animation-delay: 0.65s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(246) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.297s;
+  animation-duration: 1.1s;
+  animation-delay: 0.914s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(247) {
   animation-name: flip-card;
-  animation-duration: 1.04s;
-  animation-delay: 0.24s;
+  animation-duration: 1.08s;
+  animation-delay: 0.997s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(248) {
   animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.847s;
+  animation-duration: 1.1s;
+  animation-delay: 0.944s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(249) {
   animation-name: flip-card;
-  animation-duration: 1.08s;
-  animation-delay: 0.36s;
+  animation-duration: 1.06s;
+  animation-delay: 0.993s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 .PatientItem.animate-flip:not(.animate-flip-instant):nth-child(250) {
   animation-name: flip-card;
-  animation-duration: 1.06s;
-  animation-delay: 0.886s;
+  animation-duration: 1.02s;
+  animation-delay: 0.26s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
