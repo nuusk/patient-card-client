@@ -24,13 +24,27 @@ const data = {
     }
   ]
 };
+
+const alertHello = () => {
+  alert('hello');
+}
+
+const options = {
+  legend: {
+    onClick: alertHello
+  }
+}
  
 const PatientResourcesDetails = (props) => {
   let bodyHeightChart = [];
+  let bodyHeightDates = [];
   props.observationBodyHeightResource.forEach((bodyHeightResource, index) => {
-    console.log([index, bodyHeightResource.values[0].value])
-    bodyHeightChart.push([index, bodyHeightResource.values[0].value]);
+    // console.log([index, bodyHeightResource.values[0].value])
+    bodyHeightChart.push(bodyHeightResource.values[0].value);
+    bodyHeightDates.push(bodyHeightResource.values[0].issued);
   });
+  data.datasets[0].data = bodyHeightChart;
+  data.labels = bodyHeightDates;
   return (
     <div className="PatientResourcesDetails">
       <section className="resources-frame">
@@ -41,9 +55,10 @@ const PatientResourcesDetails = (props) => {
             <div>{bodyHeightResource.values[0].value}</div>
           ))
         */}
-        <Line 
-          data={data} 
+        <Line
+          data={data}
           height={100}
+          options={options}
         />
       </section>
     </div>
