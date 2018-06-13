@@ -29,6 +29,30 @@
       &__right-column
         flex-basis: 50%
         position: relative
+        perspective: 3000px
+        .select-date
+          display: inline-block
+          font-size: .7em
+          cursor: pointer
+          transition: $normal-frame
+          background-color: $balloon-red
+          padding: 10px 20px
+          border-radius: 20px
+          box-shadow: 4px 4px 10px 4px $shadow
+          -webkit-transform-style: preserve-3d
+          -webkit-backface-visibility: hidden
+          &.is-on
+            color: $balloon-red
+            background-color: $white
+            opacity: 0
+            transform: rotateY(-180deg)
+            animation: flip-button-on $normal-frame forwards
+          &.is-off
+            color: $balloon-red
+            background-color: $white
+            opacity: 0
+            transform: rotateY(-180deg)
+            animation: flip-button-off $normal-frame forwards
         .rdrDateRangePickerWrapper
           transition: $normal-frame
           position: absolute
@@ -38,6 +62,7 @@
           border-radius: 10px
           background-color: $white
           box-shadow: 4px 4px 10px 4px $shadow
+          animation: fade-in $normal-frame ease-in-out forwards
           .rdrDefinedRangesWrapper,
           .rdrStaticRange,
           .rdrDateDisplay,
@@ -45,6 +70,10 @@
             background-color: transparent
           .rdrInputRanges
             display: none
+          .rdrStartEdge,
+          .rdrEndEdge,
+          .rdrInRange
+            background-color: $balloon-blue
           &:hover
             border-color: $balloon-blue
             border-radius: 10px
@@ -60,4 +89,30 @@
   100%
     transform: rotateY(0deg) translateY(0px)
     background-color: $setting
+    opacity: 1
+
+@keyframes fade-in
+  0%
+    color: transparent
+    opacity: 0
+  100%
+    opacity: 1
+
+@keyframes flip-button-off
+  0%
+    color: transparent
+    transform: rotateY(-180deg)
+    opacity: 0
+  100%
+    transform: rotateY(0deg)
+    background-color: $setting
+    opacity: 1
+
+@keyframes flip-button-on
+  0%
+    color: transparent
+    transform: rotateY(-180deg)
+    opacity: 0
+  100%
+    transform: rotateY(0deg)
     opacity: 1

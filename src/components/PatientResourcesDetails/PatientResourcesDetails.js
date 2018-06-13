@@ -41,10 +41,12 @@ export default class PatientResourcesDetails extends Component {
         startDate: new Date(),
         endDate: new Date(),
         key: 'selection',
-      }
+      },
+      isCalendarVisible: false
     }
 
     this.handleRangeChange = this.handleRangeChange.bind(this);
+    this.toggleCalendar = this.toggleCalendar.bind(this);
   }
 
   handleRangeChange(which) {
@@ -64,7 +66,13 @@ export default class PatientResourcesDetails extends Component {
         },
       });
     }
-   
+  }
+
+  toggleCalendar() {
+    console.log(this.state.isCalendarVisible);
+    this.setState({
+      isCalendarVisible: !this.state.isCalendarVisible
+    });
   }
   
   render () {
@@ -87,10 +95,19 @@ export default class PatientResourcesDetails extends Component {
               <div>{this.props.patientResource.city}, {this.props.patientResource.state} {this.props.patientResource.country}</div>
             </div>
             <div className="frame-menu__right-column">
-            <DateRangePicker
-              ranges={[this.state.selectionRange]}
-              onChange={this.handleRangeChange}
-            />
+            { this.state.isCalendarVisible ? 
+              <DateRangePicker
+                ranges={[this.state.selectionRange]}
+                onChange={this.handleRangeChange}
+              /> : 
+              null
+            }
+            <div 
+              className={`select-date ${this.state.isCalendarVisible ? 'is-on' : 'is-off'}`}
+              onClick={this.toggleCalendar}
+            >
+              { this.state.isCalendarVisible ? "OK" : "Select Date" }
+            </div>
             </div>
           </div>
           <Line
