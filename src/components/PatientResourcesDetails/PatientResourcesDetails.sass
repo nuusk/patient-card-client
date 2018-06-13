@@ -2,8 +2,6 @@
 @import '../../utilities/_timers.sass'
 
 .PatientResourcesDetails
-  display: flex
-  flex-direction: column
   perspective: 3000px
   .resources-frame
     flex: 1
@@ -22,6 +20,35 @@
       duration: $long-frame + random(25)/25 * 1s
       timing-function: ease-in-out
       fill-mode: forwards
+    .frame-menu
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      &__left-column
+        flex-basis: 50%
+      &__right-column
+        flex-basis: 50%
+        position: relative
+        .rdrDateRangePickerWrapper
+          transition: $normal-frame
+          position: absolute
+          top: 0
+          right: 0
+          border: 4px solid $balloon-red
+          border-radius: 10px
+          background-color: $white
+          box-shadow: 4px 4px 10px 4px $shadow
+          .rdrDefinedRangesWrapper,
+          .rdrStaticRange,
+          .rdrDateDisplay,
+          .rdrDateRangeWrapper
+            background-color: transparent
+          .rdrInputRanges
+            display: none
+          &:hover
+            border-color: $balloon-blue
+            border-radius: 10px
+            box-shadow: 7px 7px 20px 4px $shadow
 
 @keyframes flip-frame-reverse
   0%

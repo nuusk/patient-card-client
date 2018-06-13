@@ -1,7 +1,13 @@
 import React from 'react';
+import { Component } from 'react';
 import './PatientResourcesDetails.css';
 
 import {Line} from 'react-chartjs-2';
+import 'react-date-range/dist/styles.css'; // main style file
+import 'react-date-range/dist/theme/default.css'; // theme css file
+import { DateRangePicker } from 'react-date-range';
+
+
 
 const data = {
   labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -25,44 +31,76 @@ const data = {
   ]
 };
 
-const alertHello = () => {
-  alert('hello');
-}
 
-const options = {
-  legend: {
-    onClick: alertHello
+export default class PatientResourcesDetails extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      selectionRange: {
+        startDate: new Date(),
+        endDate: new Date(),
+        key: 'selection',
+      }
+    }
+
+    this.handleRangeChange = this.handleRangeChange.bind(this);
   }
+
+  handleRangeChange(which) {
+    console.log(which);
+    if (which.selection) {
+      this.setState({
+        selectionRange: {
+          startDate: which.selection.startDate,
+          endDate: which.selection.endDate
+        },
+      });
+    } else {
+      this.setState({
+        selectionRange: {
+          startDate: which.range1.startDate,
+          endDate: which.range1.endDate
+        },
+      });
+    }
+   
+  }
+  
+  render () {
+    let bodyHeightChart = [];
+    let bodyHeightDates = [];
+    this.props.observationBodyHeightResource.forEach((bodyHeightResource, index) => {
+      // console.log([index, bodyHeightResource.values[0].value])
+      bodyHeightChart.push(bodyHeightResource.values[0].value);
+      bodyHeightDates.push(bodyHeightResource.values[0].issued);
+    });
+    data.datasets[0].data = bodyHeightChart;
+    data.labels = bodyHeightDates;
+
+    return (
+      <div className="PatientResourcesDetails">
+        <section className="resources-frame">
+          <div className="frame-menu">
+            <div className="frame-menu__left-column">
+              <div>{this.props.patientResource.prefix} {this.props.patientResource.firstName} {this.props.patientResource.lastName}</div>
+              <div>{this.props.patientResource.city}, {this.props.patientResource.state} {this.props.patientResource.country}</div>
+            </div>
+            <div className="frame-menu__right-column">
+            <DateRangePicker
+              ranges={[this.state.selectionRange]}
+              onChange={this.handleRangeChange}
+            />
+            </div>
+          </div>
+          <Line
+            data={data}
+            height={100}
+          />
+        </section>
+      </div>
+    );
+  }
+
 }
  
-const PatientResourcesDetails = (props) => {
-  let bodyHeightChart = [];
-  let bodyHeightDates = [];
-  props.observationBodyHeightResource.forEach((bodyHeightResource, index) => {
-    // console.log([index, bodyHeightResource.values[0].value])
-    bodyHeightChart.push(bodyHeightResource.values[0].value);
-    bodyHeightDates.push(bodyHeightResource.values[0].issued);
-  });
-  data.datasets[0].data = bodyHeightChart;
-  data.labels = bodyHeightDates;
-  return (
-    <div className="PatientResourcesDetails">
-      <section className="resources-frame">
-        <div>{props.patientResource.prefix} {props.patientResource.firstName} {props.patientResource.lastName}</div>
-        <div>{props.patientResource.city}, {props.patientResource.state} {props.patientResource.country}</div>
-        {/*
-          props.observationBodyHeightResource.map(bodyHeightResource => (
-            <div>{bodyHeightResource.values[0].value}</div>
-          ))
-        */}
-        <Line
-          data={data}
-          height={100}
-          options={options}
-        />
-      </section>
-    </div>
-  );
-};
-
-export default PatientResourcesDetails;

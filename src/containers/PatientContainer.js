@@ -17,7 +17,7 @@ export default class PatientContainer extends Component {
     };
 
     this.selectPatient = this.selectPatient.bind(this);
-    this.changeView = this.changeView.bind(this);
+    this.changeContent = this.changeContent.bind(this);
   }
 
   // componentDidMount() {
@@ -58,15 +58,15 @@ export default class PatientContainer extends Component {
         selectedPatientResources: combinedResources,
         flipBoard: true
       }, () => {
-        this.changeView('resourcesDetails', this.containerContentTimer);
+        this.changeContent('resourcesDetails', this.containerContentTimer);
       });
     });
   }
 
-  changeView(view, delay) {
+  changeContent(content, delay) {
     setTimeout(() => {
       this.setState({
-        containerContent: view
+        containerContent: content
       });
     }, delay)
   }
