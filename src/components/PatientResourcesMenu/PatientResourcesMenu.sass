@@ -2,6 +2,8 @@
 @import '../../utilities/_timers.sass'
 
 .PatientResourcesMenu
+  strong
+    color: $balloon-green
   perspective: 3000px
   .resources-frame
     flex: 1
@@ -27,17 +29,20 @@
       display: flex
       flex-direction: row
       justify-content: space-between
+      align-items: center
       &__left-column
         .patient-additional
           color: $gray
           font-size: .6em
       &__right-column
-        margin-left: 40px
+        margin-left: 100px
         flex: 1
         position: relative
         perspective: 3000px
         display: flex
-        align-items: center
+        flex-direction: column
+        font-size: .7em
+        color: $gray
     .frame-resources
       display: flex
       flex-direction: row
@@ -85,7 +90,11 @@
               text-decoration: underline
               font-size: .8em
               color: $white
-
+        .no-more
+          text-align: center
+          font-size: .7em
+          color: $gray
+          
 @keyframes bounce
   0%
     transform: translateY(-2px)

@@ -20,6 +20,9 @@
       duration: $long-frame + random(25)/25 * 1s
       timing-function: ease-in-out
       fill-mode: forwards
+    .chart-wrapper
+      position: relative
+      z-index: -50
     .dark
       transition: $long-frame
       opacity: .2
@@ -41,6 +44,7 @@
         .select-date
           display: inline-block
           font-size: .7em
+          z-index: 20
           cursor: pointer
           transition: $normal-frame
           background-color: $balloon-red
@@ -64,6 +68,7 @@
         .rdrDateRangePickerWrapper
           transition: $normal-frame
           position: absolute
+          z-index: 10
           top: 0
           right: 0
           border: 4px solid $balloon-red
@@ -86,6 +91,33 @@
             border-color: $balloon-blue
             border-radius: 10px
             box-shadow: 7px 7px 20px 4px $shadow
+  .switch-chart-menu
+    max-width: 240px
+    margin: 0 auto
+    text-align: center
+    .switch-chart-text
+      font-size: 1.2em
+      color: $gray
+      margin-top: 10px
+    .switch-chart-buttons
+      display: flex
+      justify-content: space-between
+      .switch-chart
+        width: 30px
+        height: 30px
+        margin: 4px 6px 0 10px
+        cursor: pointer
+        background-color: $gray-dark
+        border-radius: 50%
+        transition: $short-frame
+        &:hover
+          background-color: $balloon-blue
+          transform: scale(1.2)
+      .switch-chart-button-description
+        color: $gray
+        padding-top: 4px
+        text-align: center
+        font-size: 1em
 
 @keyframes flip-frame-reverse
   0%

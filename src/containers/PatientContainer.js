@@ -57,11 +57,11 @@ export default class PatientContainer extends Component {
     const combinedResources = {
       'patientResource': {},
       'observationBodyHeightResource': {},
-      'observationBodyWeightResourceRequest': {},
-      'observationBMIResourceRequest': {},
-      'observationHBA1CResourceRequest': {},
-      'medicationResourceRequest': {},
-      'conditionResourceRequest': {}
+      'observationBodyWeightResource': {},
+      'observationBMIResource': {},
+      'observationHBA1CResource': {},
+      'medicationResource': {},
+      'conditionResource': {}
     };
 
     Promise.all([
@@ -76,11 +76,11 @@ export default class PatientContainer extends Component {
     ]).then(data => {
       combinedResources['patientResource'] = data[1];
       combinedResources['observationBodyHeightResource'] = data[2];
-      combinedResources['observationBodyWeightResourceRequest'] = data[3];
-      combinedResources['observationBMIResourceRequest'] = data[4];
-      combinedResources['observationHBA1CResourceRequest'] = data[5];
-      combinedResources['medicationResourceRequest'] = data[6];
-      combinedResources['conditionResourceRequest'] = data[7];
+      combinedResources['observationBodyWeightResource'] = data[3];
+      combinedResources['observationBMIResource'] = data[4];
+      combinedResources['observationHBA1CResource'] = data[5];
+      combinedResources['medicationResource'] = data[6];
+      combinedResources['conditionResource'] = data[7];
       console.log('info z konterera:');
       console.log(combinedResources);
       console.log(data[0])
@@ -120,11 +120,12 @@ export default class PatientContainer extends Component {
           <PatientResourcesMenu
             patientResource={this.state.selectedPatientResources['patientResource']}
             observationBodyHeightResource={this.state.selectedPatientResources['observationBodyHeightResource']}
-            observationBodyWeightResource={this.state.selectedPatientResources['observationBodyWeightResourceRequest']}
-            observationBMIResource={this.state.selectedPatientResources['observationBMIResourceRequest']}
-            observationHBA1CResource={this.state.selectedPatientResources['observationHBA1CResourceRequest']}
-            medicationResource={this.state.selectedPatientResources['medicationResourceRequest']}
-            conditionResource={this.state.selectedPatientResources['conditionResourceRequest']}
+            observationBodyWeightResource={this.state.selectedPatientResources['observationBodyWeightResource']}
+            observationBMIResource={this.state.selectedPatientResources['observationBMIResource']}
+            observationHBA1CResource={this.state.selectedPatientResources['observationHBA1CResource']}
+            medicationResource={this.state.selectedPatientResources['medicationResource']}
+            conditionResource={this.state.selectedPatientResources['conditionResource']}
+            handleClick={this.changeContent}
           />);
         break;
       case 'resourcesDetails':
@@ -132,6 +133,12 @@ export default class PatientContainer extends Component {
           <PatientResourcesDetails
             patientResource={this.state.selectedPatientResources['patientResource']}
             observationBodyHeightResource={this.state.selectedPatientResources['observationBodyHeightResource']}
+            observationBodyWeightResource={this.state.selectedPatientResources['observationBodyWeightResource']}
+            observationBMIResource={this.state.selectedPatientResources['observationBMIResource']}
+            observationHBA1CResource={this.state.selectedPatientResources['observationHBA1CResource']}
+            medicationResource={this.state.selectedPatientResources['medicationResource']}
+            conditionResource={this.state.selectedPatientResources['conditionResource']}
+            handleClick={this.changeContent}
           />);
         break;
       case 'patientList':
