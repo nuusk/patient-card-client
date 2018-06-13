@@ -51,7 +51,8 @@ html, body {
   font-family: 'Ubuntu', sans-serif;
   color: #fefefe;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  perspective: 3000px; }
 
 .Home .PatientResourcesDetails {
   flex: 1; }

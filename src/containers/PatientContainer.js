@@ -13,7 +13,8 @@ export default class PatientContainer extends Component {
       patientList: [],
       selectedPatientID: null,
       selectedPatientResources: {},
-      flipBoard: false
+      flipBoard: false,
+      containerContent: 'patientList'
     };
 
     this.selectPatient = this.selectPatient.bind(this);
@@ -31,7 +32,6 @@ export default class PatientContainer extends Component {
       }, this.longFrame);
     });
     
-
     const patientResourceRequest = fetch(`${this.serverURL}/patient/${patientID}`)
       .then(blob => blob.json());
 
@@ -112,18 +112,25 @@ export default class PatientContainer extends Component {
   }
 
   render() {
-    return (
-          (this.state.selectedPatientID && this.state.containerContent === 'resourcesDetails') ?
+    let content;
+    switch(this.state.containerContent) {
+      case 'resourcesDetails':
+        content = (
           <PatientResourcesDetails
             patientResource={this.state.selectedPatientResources['patientResource']}
             observationBodyHeightResource={this.state.selectedPatientResources['observationBodyHeightResource']}
-          /> :
+          />);
+        break;
+      case 'patientList':
+        content = (
           <PatientList
             patientList={this.state.patientList}
             handleClick={this.selectPatient}
             shortFrame={this.shortFrame}
             flipBoard={this.state.flipBoard}
-          />
-    )
+          />);
+        break;
+    }
+    return content;
   }
 };

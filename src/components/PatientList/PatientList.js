@@ -14,7 +14,7 @@ const PatientList = (props) => {
   return (
     <div className="PatientList">
       {
-        props.patientList.slice(0,24).map((patient, index) => (
+        props.patientList.map((patient, index) => (
           <PatientItem
             key={patient._id}
             patient={patient}
