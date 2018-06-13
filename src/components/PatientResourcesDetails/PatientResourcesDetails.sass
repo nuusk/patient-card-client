@@ -41,7 +41,7 @@
         perspective: 3000px
         display: flex
         align-items: center
-        .select-date
+        .frame-button
           display: inline-block
           font-size: .7em
           z-index: 20
@@ -110,7 +110,8 @@
         background-color: $gray-dark
         border-radius: 50%
         transition: $short-frame
-        &:hover
+        &:hover,
+        &.selected
           background-color: $balloon-blue
           transform: scale(1.2)
       .switch-chart-button-description
@@ -118,6 +119,11 @@
         padding-top: 4px
         text-align: center
         font-size: 1em
+
+  .date-range-info
+    margin-left: 20px
+    color: $gray
+    font-size: .5em
 
 @keyframes flip-frame-reverse
   0%

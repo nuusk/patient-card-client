@@ -15,7 +15,6 @@ const colors = {
 }
 
 const data = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
   datasets: [
     {
       label: 'Body Height Observations',
@@ -30,8 +29,7 @@ const data = {
       pointHoverBackgroundColor: colors.balloonBlue,
       pointHoverBorderColor: colors.balloonBlue,
       pointRadius: 5,
-      pointHitRadius: 10,
-      data: [65, 59, 80, 81, 56, 55, 40]
+      pointHitRadius: 10
     }
   ]
 };
@@ -43,16 +41,16 @@ export default class PatientResourcesDetails extends Component {
 
     this.state = {
       selectionRange: {
-        startDate: new Date(),
-        endDate: new Date(),
+        startDate: new Date(1950, 1),
+        endDate: new Date(2040, 1),
         key: 'selection',
       },
       isCalendarVisible: false,
+      isResourcesTerminalVisible: false,
       selectedObservation: 'BodyHeight'
     }
 
     this.handleRangeChange = this.handleRangeChange.bind(this);
-    this.toggleCalendar = this.toggleCalendar.bind(this);
   }
 
   handleRangeChange(which) {
@@ -74,39 +72,45 @@ export default class PatientResourcesDetails extends Component {
     }
   }
 
-  toggleCalendar() {
-    console.log(this.state.isCalendarVisible);
-    this.setState({
-      isCalendarVisible: !this.state.isCalendarVisible
-    });
-  }
-  
+
   render () {
     let yData = [];
     let xData = [];
     switch(this.state.selectedObservation) {
       case 'BodyHeight':
+        data.datasets[0].label = 'Height [m]';
         this.props.observationBodyHeightResource.forEach((bodyHeightResource, index) => {
-          yData.push(bodyHeightResource.values[0].value);
-          xData.push(bodyHeightResource.values[0].issued);
+          if (new Date(bodyHeightResource.values[0].issued) > this.state.selectionRange.startDate && new Date(bodyHeightResource.values[0].issued) < this.state.selectionRange.endDate) {
+            yData.push(bodyHeightResource.values[0].value);
+            xData.push(new Date(bodyHeightResource.values[0].issued).toLocaleDateString());
+          }
         });
         break;
       case 'BodyWeight':
+        data.datasets[0].label = 'Weight [kg]';
         this.props.observationBodyWeightResource.forEach((bodyWeightResource, index) => {
-          yData.push(bodyWeightResource.values[0].value);
-          xData.push(bodyWeightResource.values[0].issued);
+          if (new Date(bodyWeightResource.values[0].issued) > this.state.selectionRange.startDate && new Date(bodyWeightResource.values[0].issued) < this.state.selectionRange.endDate) {
+            yData.push(bodyWeightResource.values[0].value);
+            xData.push(new Date(bodyWeightResource.values[0].issued).toLocaleDateString());
+          }
         });
         break;
       case 'BMI':
+        data.datasets[0].label = 'BMI [kg/m^2]';
         this.props.observationBMIResource.forEach((BMIResource, index) => {
-          yData.push(BMIResource.values[0].value);
-          xData.push(BMIResource.values[0].issued);
+          if (new Date(BMIResource.values[0].issued) > this.state.selectionRange.startDate && new Date(BMIResource.values[0].issued) < this.state.selectionRange.endDate) {
+            yData.push(BMIResource.values[0].value);
+            xData.push(new Date(BMIResource.values[0].issued).toLocaleDateString());
+          }
         });
         break;
       case 'HBA1C':
+        data.datasets[0].label = 'HBA1C [%]';
         this.props.observationHBA1CResource.forEach((HBA1CResource, index) => {
-          yData.push(HBA1CResource.values[0].value);
-          xData.push(HBA1CResource.values[0].issued);
+          if (new Date(HBA1CResource.values[0].issued) > this.state.selectionRange.startDate && new Date(HBA1CResource.values[0].issued) < this.state.selectionRange.endDate) {
+            yData.push(HBA1CResource.values[0].value);
+            xData.push(new Date(HBA1CResource.values[0].issued).toLocaleDateString());
+          }
         });
         break;
     }
@@ -133,10 +137,20 @@ export default class PatientResourcesDetails extends Component {
             }
 
               <div 
-                className={`select-date ${this.state.isCalendarVisible ? 'is-on' : 'is-off'}`}
-                onClick={this.toggleCalendar}
+                className={`frame-button ${this.state.isCalendarVisible ? 'is-on' : 'is-off'}`}
+                onClick={()=>{this.setState({isCalendarVisible: !this.state.isCalendarVisible, isResourcesTerminalVisible: false})}}
               >
                 { this.state.isCalendarVisible ? "OK" : "Select Date" }
+              </div>
+              <div className="date-range-info">
+                from {new Date(this.state.selectionRange.startDate).toLocaleDateString()} <br/>
+                to {new Date(this.state.selectionRange.endDate).toLocaleDateString()}
+              </div>
+              <div 
+                className={`frame-button ${this.state.isResourcesTerminalVisible ? 'is-on' : 'is-off'}`}
+                onClick={()=>{this.setState({isResourcesTerminalVisible: !this.state.isResourcesTerminalVisible, isCalendarVisible: false})}}
+              >
+                { this.state.isResourcesTerminalVisible ? "OK" : "Modify resource" }
               </div>
             </div>
           </div>
@@ -151,20 +165,20 @@ export default class PatientResourcesDetails extends Component {
           <div className="switch-chart-text">Switch chart</div>
           <div className="switch-chart-buttons">
             <div>
-              <div onClick={()=>{this.setState({selectedObservation:'BodyHeight'})}} className="switch-chart switch-chart-height" />
-              <div className="switch-chart-button-description">Height</div>
+              <div onClick={()=>{this.setState({selectedObservation:'BodyHeight'})}} className={`switch-chart switch-chart-height ${this.state.selectedObservation==='BodyHeight' ? 'selected' : ''}`} />
+              <div className={`switch-chart-button-description `}>Height</div>
             </div>
             <div>
-              <div onClick={()=>{this.setState({selectedObservation:'BodyWeight'})}} className="switch-chart switch-chart-weight" />
-              <div className="switch-chart-button-description">Weight</div>
+              <div onClick={()=>{this.setState({selectedObservation:'BodyWeight'})}} className={`switch-chart switch-chart-weight ${this.state.selectedObservation==='BodyWeight' ? 'selected' : ''}`} />
+              <div className={`switch-chart-button-description `}>Weight</div>
             </div>
             <div>
-              <div onClick={()=>{this.setState({selectedObservation:'BMI'})}} className="switch-chart switch-chart-bmi" />
-              <div className="switch-chart-button-description">BMI</div>
+              <div onClick={()=>{this.setState({selectedObservation:'BMI'})}} className={`switch-chart switch-chart-bmi ${this.state.selectedObservation==='BMI' ? 'selected' : ''}`} />
+              <div className={`switch-chart-button-description `}>BMI</div>
             </div>
             <div>
-              <div onClick={()=>{this.setState({selectedObservation:'HBA1C'})}} className="switch-chart switch-chart-hba1c" />
-              <div className="switch-chart-button-description">HBA1C</div>
+              <div onClick={()=>{this.setState({selectedObservation:'HBA1C'})}} className={`switch-chart switch-chart-hba1c ${this.state.selectedObservation==='HBA1C' ? 'selected' : ''}`} />
+              <div className={`switch-chart-button-description `}>HBA1C</div>
             </div>
           </div>
         </div>

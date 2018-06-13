@@ -14,7 +14,7 @@
   opacity: 1;
   font-size: 3em;
   animation-name: flip-frame-reverse;
-  animation-duration: 1.68s;
+  animation-duration: 1.96s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
@@ -43,7 +43,7 @@
   display: flex;
   align-items: center; }
 
-.PatientResourcesDetails .resources-frame .frame-menu__right-column .select-date {
+.PatientResourcesDetails .resources-frame .frame-menu__right-column .frame-button {
   display: inline-block;
   font-size: .7em;
   z-index: 20;
@@ -56,14 +56,14 @@
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden; }
 
-.PatientResourcesDetails .resources-frame .frame-menu__right-column .select-date.is-on {
+.PatientResourcesDetails .resources-frame .frame-menu__right-column .frame-button.is-on {
   color: #ed5572;
   background-color: #fefefe;
   opacity: 0;
   transform: rotateY(-180deg);
   animation: flip-button-on 0.35s forwards; }
 
-.PatientResourcesDetails .resources-frame .frame-menu__right-column .select-date.is-off {
+.PatientResourcesDetails .resources-frame .frame-menu__right-column .frame-button.is-off {
   color: #ed5572;
   background-color: #fefefe;
   opacity: 0;
@@ -124,7 +124,7 @@
   border-radius: 50%;
   transition: 0.2s; }
 
-.PatientResourcesDetails .switch-chart-menu .switch-chart-buttons .switch-chart:hover {
+.PatientResourcesDetails .switch-chart-menu .switch-chart-buttons .switch-chart:hover, .PatientResourcesDetails .switch-chart-menu .switch-chart-buttons .switch-chart.selected {
   background-color: #47bbed;
   transform: scale(1.2); }
 
@@ -133,6 +133,11 @@
   padding-top: 4px;
   text-align: center;
   font-size: 1em; }
+
+.PatientResourcesDetails .date-range-info {
+  margin-left: 20px;
+  color: #a6b5cf;
+  font-size: .5em; }
 
 @keyframes flip-frame-reverse {
   0% {
