@@ -155,10 +155,26 @@ export default class PatientResourcesDetails extends Component {
             </div>
           </div>
           <div className={`chart-wrapper ${this.state.isCalendarVisible ? 'dark' : ''}`}>
+          {
+            this.state.isResourcesTerminalVisible ?
+            (
+              <div className="terminal">
+              { this.props.observationBMIResource.map((resource, observationIndex) => 
+                <div onClick={()=>{this.props.handleTerminalClick('BMI',resource._id, observationIndex)}} className="resource" key={resource._id}>
+                  <div className="resource__text">
+                    <div className="name">{resource.observation}</div>
+                    <div className="status">{new Date(resource.effectiveDateTime).toLocaleDateString()}</div>
+                    <div className="value">{resource.values[0].value.toFixed(2)} {resource.unit}</div>
+                  </div>
+                </div>
+              )}
+              </div>
+            ) :
             <Line
               data={data}
               height={100}
             />
+          }
           </div>
         </section>
         <div className="switch-chart-menu">

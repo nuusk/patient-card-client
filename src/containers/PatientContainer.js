@@ -20,6 +20,7 @@ export default class PatientContainer extends Component {
 
     this.selectPatient = this.selectPatient.bind(this);
     this.changeContent = this.changeContent.bind(this);
+    this.modifyResource = this.modifyResource.bind(this);
   }
 
   // componentDidMount() {
@@ -102,6 +103,28 @@ export default class PatientContainer extends Component {
     }, delay)
   }
 
+  modifyResource(resourceType, resourceID, observationIndex) {
+    console.log(resourceID);
+    fetch('http://localhost:5000/observation/bmi', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json'
+      },
+      body: JSON.stringify({ id: resourceID, newValue: 20 })
+    }).then(blob => blob.json())
+      .then(data => {
+        console.log(data);
+        console.log(this.state.selectedPatientResources);
+        // let newResourceArray = this.state.selectedPatientResources.observationBMIResource.slice();
+        // newResourceArray[observationIndex] = data;
+        // this.setState({
+        //   selectedPatientResources: {
+        //     observationBMIResource: newResourceArray
+        //   }
+        // });
+      });
+  }
+
   componentWillMount() {
     fetch(`${this.serverURL}/patients`)
     .then(blob => blob.json())
@@ -139,6 +162,7 @@ export default class PatientContainer extends Component {
             medicationResource={this.state.selectedPatientResources['medicationResource']}
             conditionResource={this.state.selectedPatientResources['conditionResource']}
             handleClick={this.changeContent}
+            handleTerminalClick={this.modifyResource}
           />);
         break;
       case 'patientList':

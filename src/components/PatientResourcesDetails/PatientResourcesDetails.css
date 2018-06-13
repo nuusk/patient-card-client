@@ -14,7 +14,7 @@
   opacity: 1;
   font-size: 3em;
   animation-name: flip-frame-reverse;
-  animation-duration: 1.96s;
+  animation-duration: 1.04s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
@@ -138,6 +138,51 @@
   margin-left: 20px;
   color: #a6b5cf;
   font-size: .5em; }
+
+.PatientResourcesDetails .terminal {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.PatientResourcesDetails .terminal .resource {
+  flex-basis: 200px;
+  margin: 10px;
+  padding: 10px 20px;
+  display: flex;
+  border: 4px solid #ed5572;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s; }
+
+.PatientResourcesDetails .terminal .resource:hover {
+  background-color: #ed5572;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 6px 6px #1f232b; }
+
+.PatientResourcesDetails .terminal .resource__dot {
+  height: 20px;
+  width: 20px;
+  background-color: #ed5572;
+  border-radius: 50%;
+  align-items: center; }
+
+.PatientResourcesDetails .terminal .resource__text {
+  margin-left: 20px;
+  flex: 1;
+  font-size: .5em; }
+
+.PatientResourcesDetails .terminal .resource__text .name {
+  color: #fefefe; }
+
+.PatientResourcesDetails .terminal .resource__text .status {
+  font-size: .8em;
+  color: #a6b5cf; }
+
+.PatientResourcesDetails .terminal .resource__text .value {
+  text-decoration: underline;
+  font-size: .8em;
+  color: #fefefe; }
 
 @keyframes flip-frame-reverse {
   0% {

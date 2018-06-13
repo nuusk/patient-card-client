@@ -15,7 +15,7 @@
     opacity: 1;
     font-size: 3em;
     animation-name: flip-frame-reverse;
-    animation-duration: 1.32s;
+    animation-duration: 1.6s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards; }
     .PatientResourcesMenu .resources-frame .dark {
