@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PatientList from '../components/PatientList/PatientList';
 import PatientResourcesDetails from '../components/PatientResourcesDetails/PatientResourcesDetails';
+import PatientResourcesMenu from '../components/PatientResourcesMenu/PatientResourcesMenu';
 
 export default class PatientContainer extends Component {
   constructor() {
@@ -88,7 +89,7 @@ export default class PatientContainer extends Component {
         selectedPatientResources: combinedResources,
         flipBoard: true
       }, () => {
-        this.changeContent('resourcesDetails', this.containerContentTimer);
+        this.changeContent('resourcesMenu', this.containerContentTimer);
       });
     });
   }
@@ -114,6 +115,18 @@ export default class PatientContainer extends Component {
   render() {
     let content;
     switch(this.state.containerContent) {
+      case 'resourcesMenu':
+        content = (
+          <PatientResourcesMenu
+            patientResource={this.state.selectedPatientResources['patientResource']}
+            observationBodyHeightResource={this.state.selectedPatientResources['observationBodyHeightResource']}
+            observationBodyWeightResource={this.state.selectedPatientResources['observationBodyWeightResourceRequest']}
+            observationBMIResource={this.state.selectedPatientResources['observationBMIResourceRequest']}
+            observationHBA1CResource={this.state.selectedPatientResources['observationHBA1CResourceRequest']}
+            medicationResource={this.state.selectedPatientResources['medicationResourceRequest']}
+            conditionResource={this.state.selectedPatientResources['conditionResourceRequest']}
+          />);
+        break;
       case 'resourcesDetails':
         content = (
           <PatientResourcesDetails
