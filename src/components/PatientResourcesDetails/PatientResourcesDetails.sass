@@ -20,16 +20,24 @@
       duration: $long-frame + random(25)/25 * 1s
       timing-function: ease-in-out
       fill-mode: forwards
+    .dark
+      transition: $long-frame
+      opacity: .2
     .frame-menu
       display: flex
       flex-direction: row
       justify-content: space-between
       &__left-column
-        flex-basis: 50%
+        .patient-additional
+          color: $gray
+          font-size: .6em
       &__right-column
-        flex-basis: 50%
+        margin-left: 40px
+        flex: 1
         position: relative
         perspective: 3000px
+        display: flex
+        align-items: center
         .select-date
           display: inline-block
           font-size: .7em

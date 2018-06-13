@@ -4,7 +4,7 @@ import './PatientItem.css';
 const PatientItem = (props) => {
   return (
     <div
-      className={`PatientItem balloon-red ${props.flipBoard ? 'animate-flip' : ''}`}
+      className={`PatientItem ${props.cardColor} ${props.flipBoard ? 'animate-flip' : ''}`}
       onClick={(e) => {
         e.target.classList.toggle('animate-flip-instant');
         props.handleClick(props.patient.patientID);

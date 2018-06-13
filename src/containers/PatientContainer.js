@@ -38,18 +38,48 @@ export default class PatientContainer extends Component {
     const observationBodyHeightResourceRequest = fetch(`${this.serverURL}/observations/height/${patientID}`)
       .then(blob => blob.json());
 
+    const observationBodyWeightResourceRequest = fetch(`${this.serverURL}/observations/weight/${patientID}`)
+      .then(blob => blob.json());
+
+    const observationBMIResourceRequest = fetch(`${this.serverURL}/observations/bmi/${patientID}`)
+      .then(blob => blob.json());
+
+    const observationHBA1CResourceRequest = fetch(`${this.serverURL}/observations/hba1c/${patientID}`)
+      .then(blob => blob.json());
+
+    const medicationResourceRequest = fetch(`${this.serverURL}/medications/${patientID}`)
+      .then(blob => blob.json());
+    
+    const conditionResourceRequest = fetch(`${this.serverURL}/conditions/${patientID}`)
+      .then(blob => blob.json());
+
     const combinedResources = {
       'patientResource': {},
-      'observationBodyHeightResource': {}
+      'observationBodyHeightResource': {},
+      'observationBodyWeightResourceRequest': {},
+      'observationBMIResourceRequest': {},
+      'observationHBA1CResourceRequest': {},
+      'medicationResourceRequest': {},
+      'conditionResourceRequest': {}
     };
 
     Promise.all([
       flipCardsPromise,
       patientResourceRequest,
-      observationBodyHeightResourceRequest
+      observationBodyHeightResourceRequest,
+      observationBodyWeightResourceRequest,
+      observationBMIResourceRequest,
+      observationHBA1CResourceRequest,
+      medicationResourceRequest,
+      conditionResourceRequest
     ]).then(data => {
       combinedResources['patientResource'] = data[1];
       combinedResources['observationBodyHeightResource'] = data[2];
+      combinedResources['observationBodyWeightResourceRequest'] = data[3];
+      combinedResources['observationBMIResourceRequest'] = data[4];
+      combinedResources['observationHBA1CResourceRequest'] = data[5];
+      combinedResources['medicationResourceRequest'] = data[6];
+      combinedResources['conditionResourceRequest'] = data[7];
       console.log('info z konterera:');
       console.log(combinedResources);
       console.log(data[0])

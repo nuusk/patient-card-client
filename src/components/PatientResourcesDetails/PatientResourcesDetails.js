@@ -91,8 +91,9 @@ export default class PatientResourcesDetails extends Component {
         <section className="resources-frame">
           <div className="frame-menu">
             <div className="frame-menu__left-column">
-              <div>{this.props.patientResource.prefix} {this.props.patientResource.firstName} {this.props.patientResource.lastName}</div>
-              <div>{this.props.patientResource.city}, {this.props.patientResource.state} {this.props.patientResource.country}</div>
+              <div className="patient-additional">{this.props.patientResource.prefix} </div>
+              <div className="patient-name">{this.props.patientResource.firstName} {this.props.patientResource.lastName}</div>
+              <div className="patient-additional">{this.props.patientResource.city}, {this.props.patientResource.state} {this.props.patientResource.country}</div>
             </div>
             <div className="frame-menu__right-column">
             { this.state.isCalendarVisible ? 
@@ -110,10 +111,12 @@ export default class PatientResourcesDetails extends Component {
             </div>
             </div>
           </div>
-          <Line
-            data={data}
-            height={100}
-          />
+          <div className={`chart-wrapper ${this.state.isCalendarVisible ? 'dark' : ''}`}>
+            <Line
+              data={data}
+              height={100}
+            />
+          </div>
         </section>
       </div>
     );

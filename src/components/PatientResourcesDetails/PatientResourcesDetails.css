@@ -14,22 +14,30 @@
   opacity: 1;
   font-size: 3em;
   animation-name: flip-frame-reverse;
-  animation-duration: 2s;
+  animation-duration: 1.32s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
+
+.PatientResourcesDetails .resources-frame .dark {
+  transition: 1s;
+  opacity: .2; }
 
 .PatientResourcesDetails .resources-frame .frame-menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
 
-.PatientResourcesDetails .resources-frame .frame-menu__left-column {
-  flex-basis: 50%; }
+.PatientResourcesDetails .resources-frame .frame-menu__left-column .patient-additional {
+  color: #a6b5cf;
+  font-size: .6em; }
 
 .PatientResourcesDetails .resources-frame .frame-menu__right-column {
-  flex-basis: 50%;
+  margin-left: 40px;
+  flex: 1;
   position: relative;
-  perspective: 3000px; }
+  perspective: 3000px;
+  display: flex;
+  align-items: center; }
 
 .PatientResourcesDetails .resources-frame .frame-menu__right-column .select-date {
   display: inline-block;
@@ -80,10 +88,10 @@
 .PatientResourcesDetails .resources-frame .frame-menu__right-column .rdrDateRangePickerWrapper .rdrStartEdge,
 .PatientResourcesDetails .resources-frame .frame-menu__right-column .rdrDateRangePickerWrapper .rdrEndEdge,
 .PatientResourcesDetails .resources-frame .frame-menu__right-column .rdrDateRangePickerWrapper .rdrInRange {
-  background-color: #77ddff; }
+  background-color: #47bbed; }
 
 .PatientResourcesDetails .resources-frame .frame-menu__right-column .rdrDateRangePickerWrapper:hover {
-  border-color: #77ddff;
+  border-color: #47bbed;
   border-radius: 10px;
   box-shadow: 7px 7px 20px 4px rgba(0, 0, 0, 0.3); }
 
