@@ -23,11 +23,72 @@ export default class PatientContainer extends Component {
     this.changeContent = this.changeContent.bind(this);
     this.modifyResource = this.modifyResource.bind(this);
     this.searchForPatient = this.searchForPatient.bind(this);
+    this.update = this.update.bind(this);
   }
 
   // componentDidMount() {
   //   this.selectPatient(44001);
   // }
+
+  update(patientID) {
+    const patientResourceRequest = fetch(`${this.serverURL}/patient/${patientID}`)
+    .then(blob => blob.json());
+
+  const observationBodyHeightResourceRequest = fetch(`${this.serverURL}/observations/height/${patientID}`)
+    .then(blob => blob.json());
+
+  const observationBodyWeightResourceRequest = fetch(`${this.serverURL}/observations/weight/${patientID}`)
+    .then(blob => blob.json());
+
+  const observationBMIResourceRequest = fetch(`${this.serverURL}/observations/bmi/${patientID}`)
+    .then(blob => blob.json());
+
+  const observationHBA1CResourceRequest = fetch(`${this.serverURL}/observations/hba1c/${patientID}`)
+    .then(blob => blob.json());
+
+  const medicationResourceRequest = fetch(`${this.serverURL}/medications/${patientID}`)
+    .then(blob => blob.json());
+  
+  const conditionResourceRequest = fetch(`${this.serverURL}/conditions/${patientID}`)
+    .then(blob => blob.json());
+
+  const combinedResources = {
+    'patientResource': {},
+    'observationBodyHeightResource': {},
+    'observationBodyWeightResource': {},
+    'observationBMIResource': {},
+    'observationHBA1CResource': {},
+    'medicationResource': {},
+    'conditionResource': {}
+  };
+
+  Promise.all([
+    patientResourceRequest,
+    observationBodyHeightResourceRequest,
+    observationBodyWeightResourceRequest,
+    observationBMIResourceRequest,
+    observationHBA1CResourceRequest,
+    medicationResourceRequest,
+    conditionResourceRequest
+  ]).then(data => {
+    combinedResources['patientResource'] = data[1];
+    combinedResources['observationBodyHeightResource'] = data[2];
+    combinedResources['observationBodyWeightResource'] = data[3];
+    combinedResources['observationBMIResource'] = data[4];
+    combinedResources['observationHBA1CResource'] = data[5];
+    combinedResources['medicationResource'] = data[6];
+    combinedResources['conditionResource'] = data[7];
+    // console.log('info z konterera:');
+    console.log(combinedResources);
+    console.log(data[0])
+    this.setState({
+      selectedPatientID: patientID,
+      selectedPatientResources: combinedResources
+    }, () => {
+      this.changeContent('resourcesMenu', this.containerContentTimer);
+    });
+  });
+  }
 
   selectPatient(patientID) {
     const flipCardsPromise = new Promise((resolve, reject) => {
@@ -144,18 +205,22 @@ export default class PatientContainer extends Component {
     }, 800);
   }
 
-  modifyResource(resourceType, resourceID, observationIndex) {
-    console.log(resourceID);
-    fetch('http://localhost:5000/observation/bmi', {
+  modifyResource(resourceType, resourceID, newValue, observationIndex) {
+
+    // console.log(resourceType);
+    // console.log(resourceID);
+    // console.log(newValue);
+    // console.log(observationIndex);
+    fetch(`http://localhost:5000/observation/${resourceType.toLowerCase()}`, {
       method: 'POST',
       headers: {
         'content-type': 'application/json'
       },
-      body: JSON.stringify({ id: resourceID, newValue: 20 })
+      body: JSON.stringify({ id: resourceID, newValue: newValue })
     }).then(blob => blob.json())
       .then(data => {
-        console.log(data);
-        console.log(this.state.selectedPatientResources);
+        // console.log(data);
+        // console.log(this.state.selectedPatientResources);
         // let newResourceArray = this.state.selectedPatientResources.observationBMIResource.slice();
         // newResourceArray[observationIndex] = data;
         // this.setState({
@@ -163,6 +228,8 @@ export default class PatientContainer extends Component {
         //     observationBMIResource: newResourceArray
         //   }
         // });
+        // this.update(this.state.selectedPatientID);
+        // console.log(data);
       });
   }
 
@@ -203,7 +270,7 @@ export default class PatientContainer extends Component {
             medicationResource={this.state.selectedPatientResources['medicationResource']}
             conditionResource={this.state.selectedPatientResources['conditionResource']}
             handleClick={this.changeContent}
-            handleTerminalClick={this.modifyResource}
+            modifyResource={this.modifyResource}
           />);
         break;
       case 'patientList':

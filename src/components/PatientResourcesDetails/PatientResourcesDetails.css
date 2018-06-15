@@ -14,7 +14,7 @@
   opacity: 1;
   font-size: 3em;
   animation-name: flip-frame-reverse;
-  animation-duration: 1.04s;
+  animation-duration: 1.16s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
@@ -183,6 +183,11 @@
   text-decoration: underline;
   font-size: .8em;
   color: #fefefe; }
+
+.PatientResourcesDetails .terminal .resource .terminal-input {
+  border: 2px solid #ed5572;
+  border-radius: 5px;
+  background-color: #fefefe; }
 
 @keyframes flip-frame-reverse {
   0% {

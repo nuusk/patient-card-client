@@ -34,13 +34,17 @@ export default class PatientResourcesMenu extends Component {
               </div>
               {
                 this.props.observationBMIResource
-                  .sort((a,b) => new Date(b.effectiveDateTime) - new Date(a.effectiveDateTime))
+                  .sort((a,b) => {
+                    console.log(new Date(b.values[0].issued));
+                    console.log(new Date(a.values[0].issued));
+                    new Date(b.values[0].issued) - new Date(a.values[0].issued)
+                    })
                   .slice(0,5).map(observation => 
                   <div className="recent-resource" key={observation._id}>
                     <div className="recent-resource__dot"></div>
                     <div className="recent-resource__text">
                       <div className="resource-name">{observation.observation}</div>
-                      <div className="resource-status">{new Date(observation.effectiveDateTime).toLocaleDateString()}</div>
+                      <div className="resource-status">{new Date(observation.values[0].issued).toLocaleDateString()}</div>
                       <div className="resource-value">{observation.values[0].value.toFixed(2)} {observation.unit}</div>
                     </div>
                   </div>
