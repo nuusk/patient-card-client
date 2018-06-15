@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PatientList from '../components/PatientList/PatientList';
 import PatientResourcesDetails from '../components/PatientResourcesDetails/PatientResourcesDetails';
 import PatientResourcesMenu from '../components/PatientResourcesMenu/PatientResourcesMenu';
+import PatientSearchBar from '../components/PatientSearchBar/PatientSearchBar';
 
 export default class PatientContainer extends Component {
   constructor() {
@@ -21,6 +22,7 @@ export default class PatientContainer extends Component {
     this.selectPatient = this.selectPatient.bind(this);
     this.changeContent = this.changeContent.bind(this);
     this.modifyResource = this.modifyResource.bind(this);
+    this.searchForPatient = this.searchForPatient.bind(this);
   }
 
   // componentDidMount() {
@@ -103,6 +105,45 @@ export default class PatientContainer extends Component {
     }, delay)
   }
 
+  searchForPatient(e) {
+    const query = e.target.value;
+    if (!query) {
+      fetch(`${this.serverURL}/patients`)
+      .then(blob => blob.json())
+      .then(patientList => {
+        this.setState({
+          patientList: patientList
+        });
+      });
+    };
+    if (this.searchForPatientTimer) clearInterval(this.searchForPatientTimer);
+    this.searchForPatientTimer = setTimeout(()=>{
+      if (isNaN(query)) {
+        fetch(`${this.serverURL}/patients/name/${query}`)
+        .then(blob => blob.json())
+        .catch(err => { console.log(err) })
+        .then(patientList => {
+          if (patientList.length) {
+            this.setState({
+              patientList: patientList
+            });
+          }
+        });
+      } else {
+        fetch(`${this.serverURL}/patient/${query}`)
+        .then(blob => blob.json())
+        .catch(err => { console.log(err) })
+        .then(patient => {
+          if (patient) {
+            this.setState({
+              patientList: new Array(patient)
+            });
+          }
+        });
+      }
+    }, 800);
+  }
+
   modifyResource(resourceType, resourceID, observationIndex) {
     console.log(resourceID);
     fetch('http://localhost:5000/observation/bmi', {
@@ -167,12 +208,23 @@ export default class PatientContainer extends Component {
         break;
       case 'patientList':
         content = (
-          <PatientList
-            patientList={this.state.patientList}
-            handleClick={this.selectPatient}
-            shortFrame={this.shortFrame}
-            flipBoard={this.state.flipBoard}
-          />);
+          <span>
+            <PatientSearchBar
+              handleChange={this.searchForPatient}
+              isVisible={!this.state.flipBoard}
+            />
+            <PatientList
+              patientList={this.state.patientList}
+              handleClick={this.selectPatient}
+              shortFrame={this.shortFrame}
+              flipBoard={this.state.flipBoard}
+            />
+          </span>);
+        break;
+      default:
+        content = (
+          <span>Something is missing... :(</span>
+        );
         break;
     }
     return content;
